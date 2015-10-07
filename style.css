@@ -1,0 +1,101 @@
+/* -----------------
+   Base styles 
+----------------- */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*outline: 1px solid red;*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #6B4E3D;
+  font-size: 15px;
+}
+
+a {
+  color: #6B4E3D;
+  text-decoration: none;
+}
+
+
+/* -----------------
+   Top header styles
+---------------------*/
+
+#top-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 20px;
+  background: url('images/euler-logo.png') no-repeat 20% center;
+}
+
+#top-header h1 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  line-height: 50px;
+  text-align: right;
+}
+
+/* -----------------
+   Main div styles
+----------------- */
+
+#main {
+  width: 960px;
+  margin: 110px auto;
+  background-color: #FFF;
+}
+
+/* Bottom footer styles */
+
+#bottom-footer {
+  position: absolute;
+  bottom: 0;
+  background: #FFF;
+  width: 100%;
+  height: 80px;
+}
+
+/* -------------------
+  Problem section styles
+-----------------------*/
+
+
+
+/* --------------------
+   Social media styles
+----------------------- */
+
+.social-links {
+  list-style-type: none;
+  width: 60%;
+  margin: -25px auto 10px;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+  vertical-align: middle;  
+  margin-right: 50px;
+}
+
+.social-links img {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.social-links a {
+  text-transform: uppercase;
+  font-size: .7em;
+  box-shadow: 10px 5px 30px rgba(107,78,61,.9)
+}
