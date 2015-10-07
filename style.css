@@ -48,8 +48,8 @@ a {
 ----------------- */
 
 #main {
-  width: 960px;
-  margin: 110px auto;
+  width: 1000px;
+  margin: 110px auto 90px;
   background-color: #FFF;
 }
 
@@ -67,7 +67,19 @@ a {
   Problem section styles
 -----------------------*/
 
+.problem-section {
+  float: left;
+  width: 33%;
+  height: 450px;
+  background-color: #FFF;
+  border: 1px dotted #6B4E3D;
+}
 
+.problem-section h2 {
+  text-align: center;
+  font-family: Monaco, "Courier New", monospace;
+  text-transform: lowercase; 
+}
 
 /* --------------------
    Social media styles
