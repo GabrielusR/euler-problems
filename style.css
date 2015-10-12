@@ -112,6 +112,36 @@ small {
   margin: 0 auto;
 }
 
+
+/*--------------------
+  User input styles
+---------------------*/
+
+.user-input {
+  width: 80%;
+  padding: 50px 10px;
+  margin: 30px auto;
+  background-color: rgba(107, 78, 61, .7);
+}
+
+.user-input div {
+  margin-bottom: 5px;
+}
+
+/*--------------------
+  Result div styles
+-------------------*/
+
+.result {
+  width: 80%;
+  padding: 25px 5px;
+  margin: 0 auto;
+  font-family: Monaco, "Courier New", monospace;
+  font-weight: bold;
+  border: 1px dotted rgba(107, 78, 61, .7);
+}
+
+
 /* --------------------
    Social media styles
 ----------------------- */
@@ -142,7 +172,7 @@ small {
   font-size: .8em;
 }
 
-.social-links a:hover {
+a:hover {
   -webkit-text-shadow: 10px 5px 3px rgba(107,78,61,.9);
   -moz-text-shadow: 10px 5px 3px rgba(107,78,61,.9);
   text-shadow: 10px 5px 3px rgba(107,78,61,.9);
