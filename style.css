@@ -6,7 +6,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /*outline: 1px solid red;*/
 }
 
 body {
@@ -94,7 +93,8 @@ small {
 
 .problem-section {
   height: 500px;
-  margin: 3px 0;
+  padding: 20px 0;
+  margin: 5px 0;
   background-color: #FFF;
   border: 3px dotted #6B4E3D;
 }
@@ -110,6 +110,7 @@ small {
   font-size: .9em;
   max-width: 50em;
   margin: 0 auto;
+  line-height: 1.5;
 }
 
 
@@ -119,13 +120,34 @@ small {
 
 .user-input {
   width: 80%;
-  padding: 50px 10px;
-  margin: 30px auto;
+  padding: 20px 10px;
+  margin: 10px auto 0;
   background-color: rgba(107, 78, 61, .7);
 }
 
-.user-input div {
-  margin-bottom: 5px;
+.input-block {
+  width: 50%;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.input-block label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+}
+
+.input-block input {
+  width: 120px;
+}
+
+.input-block input[type="number"] {
+  padding: 3px 0;
+  border: 2px dotted rgba(107, 78, 61, .3);
+}
+
+.input-block input:focus {
+  outline: none;
 }
 
 /*--------------------
